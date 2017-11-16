@@ -1,0 +1,68 @@
+body {
+    width: 1000px;
+    height: auto;
+    color: #fff;
+    background-color: rgba(0,0,0,0.87);
+    margin: auto;
+    padding: 8px 8px 8px 8px;
+}
+
+/*Header*/
+
+.header {
+    background-color: grey;
+    height: 35px;
+    width: auto;
+    border-radius: 10px 10px;
+}
+
+.header_name {
+    float: left;
+    bottom: auto;
+    position: relative;
+    top: 9px;
+    left: 50px;
+}
+
+.header_logo {
+    float: right;
+    background-color: tan;
+    padding: 5px;
+    border-radius: 15px 15px;
+    position: relative;
+    top: 3px;
+    right: 50px;
+}
+
+/*Photo*/
+
+.photo {
+    text-align: center;
+}
+
+/*Conteiner*/
+
+.conteiner {
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner_like {
+    float: right;
+    color: black;
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+
+.conteiner_comments {
+    float: left;
+    color: black;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}

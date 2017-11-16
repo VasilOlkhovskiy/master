@@ -1,0 +1,96 @@
+body {
+    width: 1400px;
+    height: 1000px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+/*Header*/
+
+.slider {
+    width: 1100px;
+    height: 35px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    background-color: grey;
+    height: 35px;
+    width: 1100px;
+    border-radius: 10px 10px;
+}
+
+.header_name {
+    float: left;
+    bottom: auto;
+    position: relative;
+    top: 9px;
+    left: 50px;
+    color: white;
+}
+
+.header_logo {
+    float: right;
+    background-color: tan;
+    padding: 5px;
+    border-radius: 15px 15px;
+    position: relative;
+    top: 3px;
+    right: 50px;
+    color: white;
+}
+
+/*Photo*/
+
+.photo {
+    width: 1004px;
+    height: 1000px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture {
+    width: 250px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    float: left;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: all .5s;
+}
+.like {
+    color: white;
+    right: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+
+.comment {
+    color: white;
+    left: 20px;
+    bottom: 20px;
+    position: absolute;
+}
+
+.picture:hover .overlay {
+    opacity: 1;
+}
